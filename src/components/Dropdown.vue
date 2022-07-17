@@ -21,7 +21,7 @@ export default defineComponent({
       required: true
     }
   },
-  setup () {
+  setup() {
     const isOpen = ref(false)
     const dropdownRef = ref<null | HTMLElement>(null)
     const toggleOpen = () => {

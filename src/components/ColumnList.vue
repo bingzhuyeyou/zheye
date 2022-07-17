@@ -30,7 +30,7 @@ export default defineComponent({
       required: true
     }
   },
-  setup (props) {
+  setup(props) {
     const columnList = computed(() => {
       return props.list.map((column) => {
         const _column = { ...column }
